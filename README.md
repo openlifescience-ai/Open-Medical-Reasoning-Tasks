@@ -64,7 +64,7 @@ Detailed instructions available in our [Contribution Guide](guidelines/CONTRIBUT
 
 ## Resources
 
-- 📋 [Task List](tasks/README.md): Comprehensive list of medical reasoning tasks
+- 📋 [Task List](tasks.md): Comprehensive list of medical reasoning tasks
 - 📏 [Evaluation Metrics](evaluation/README.md): Assessing LLM performance in healthcare
 - 📖 [Medical AI Papers](resources/papers.md): Curated list of groundbreaking research
 - 🗄️ [Healthcare Datasets](resources/datasets.md): High-quality data for training and evaluation
