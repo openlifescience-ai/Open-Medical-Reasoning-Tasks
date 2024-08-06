@@ -55,6 +55,12 @@ Explore our diverse range of medical reasoning challenges (Not limited to):
 
 We believe in the power of collective intelligence. Join our community of healthcare professionals, AI researchers, and enthusiasts!
 
+To contribute, please use GitHub and follow these guidelines. If you're not familiar with GitHub, don't worry! You can use [this Google form](https://forms.gle/Gz1qp4Vdm2aXUZjDA
+) to submit your tasks. 
+Make sure to check [the example provided](https://github.com/openlifescience-ai/Open-Medical-Reasoning-Tasks/blob/main/tasks/clinical-diagnosis-formulation.md) to ensure all information is filled out correctly. 
+
+With Github:
+
 1. Fork this repository
 2. Create a new branch for your task or improvement
 3. Add your contribution following our guidelines
