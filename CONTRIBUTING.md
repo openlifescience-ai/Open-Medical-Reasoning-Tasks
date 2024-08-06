@@ -2,6 +2,10 @@
 
 Thank you for your interest in contributing to the **Open Medical Reasoning Tasks** project! Your expertise is crucial in building a comprehensive collection of LLM reasoning tasks in the healthcare domain.
 
+To contribute, please use GitHub and follow these guidelines. If you're not familiar with GitHub, don't worry! You can use [this Google form](https://forms.gle/Gz1qp4Vdm2aXUZjDA
+) to submit your tasks. 
+Make sure to check [the example provided](https://github.com/openlifescience-ai/Open-Medical-Reasoning-Tasks/blob/main/tasks/clinical-diagnosis-formulation.md) to ensure all information is filled out correctly. 
+
 ## How to Contribute
 
 1. **Fork the Repository**: Start by forking the repository to your GitHub account.
