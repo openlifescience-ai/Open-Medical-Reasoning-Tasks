@@ -60,7 +60,7 @@ We believe in the power of collective intelligence. Join our community of health
 3. Add your contribution following our guidelines
 4. Submit a pull request
 
-Detailed instructions available in our [Contribution Guide](guidelines/CONTRIBUTING.md).
+Detailed instructions available in our [Contribution Guide](CONTRIBUTING.md).
 
 ## Resources
 
