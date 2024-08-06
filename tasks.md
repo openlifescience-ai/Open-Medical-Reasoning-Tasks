@@ -1,6 +1,6 @@
-# Medical Reasoning Tasks for Large Language Models
+# Medical Reasoning Tasks
 
-This document contains a curated list of high-impact reasoning tasks designed specifically for the medical, healthcare, and clinical domains. These tasks are intended to enhance the capabilities of large language models in critical medical reasoning and decision-making processes.
+This document contains a curated list of high-impact reasoning tasks designed specifically for the medical, healthcare, and clinical domains.
 
 | Task Name | Description |
 |-----------|-------------|
@@ -24,5 +24,3 @@ This document contains a curated list of high-impact reasoning tasks designed sp
 | [Mental Health Assessment](https://github.com/openlifescience-ai/Open-Medical-Reasoning-Tasks/blob/main/tasks/mental-health-assessment.md) | Analyzing patient responses and behaviors to assess mental health conditions and recommend appropriate interventions. |
 | [Telemedicine Triage](https://github.com/openlifescience-ai/Open-Medical-Reasoning-Tasks/blob/main/tasks/telemedicine-triage.md) | Evaluating patient symptoms and history in a remote setting to determine urgency and appropriate care pathways. |
 | [Medical Coding and Billing Optimization](https://github.com/openlifescience-ai/Open-Medical-Reasoning-Tasks/blob/main/tasks/medical-coding-and-billing-optimization.md) | Accurately translating medical diagnoses, procedures, and equipment into standardized codes for billing and record-keeping. |
-
-These tasks are designed to challenge and improve the reasoning capabilities of large language models in critical areas of healthcare. They focus on skills that are essential for medical professionals and can significantly enhance the utility of AI in supporting healthcare decision-making processes.
