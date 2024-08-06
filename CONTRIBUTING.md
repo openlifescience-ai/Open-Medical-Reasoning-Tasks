@@ -22,7 +22,7 @@ Thank you for your interest in contributing to the **Open Medical Reasoning Task
 
 5. **Update tasks.md**: Add a new row to the table in `tasks.md` using this format:
    ```markdown
-   | [Task Name](https://github.com/openlifescience-ai/Open-Medical-Reasoning-Tasks/blob/main/tasks/task-name.md) | Brief description of the medical reasoning task. |
+   | Task Name | Brief description of the medical reasoning task. |
    ```
    Ensure the task name is in title case and the link uses lowercase with hyphens.
 
