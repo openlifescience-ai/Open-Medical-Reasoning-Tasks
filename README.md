@@ -96,7 +96,7 @@ If our work contributes to your research, please cite us:
 
 ```bibtex
 @misc{openlifescienceai2024,
-  title = {Medical Reasoning Tasks for Large Language Models},
+  title = {Open Medical Reasoning Tasks: A Comprehensive Collection of LLM Reasoning Tasks in Healthcare},
   author = {Open Life Science AI},
   url = {https://github.com/OpenLifeScienceAI/Medical-Reasoning-Tasks},
   year = {2024},
