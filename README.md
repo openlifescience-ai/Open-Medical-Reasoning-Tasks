@@ -106,9 +106,9 @@ This project is licensed under the [MIT License](LICENSE).
 If our work contributes to your research, please cite us:
 
 ```bibtex
-@misc{openlifescienceai2024,
+@misc{medicalreasoningtasks,
   title = {Open Medical Reasoning Tasks: A Comprehensive Collection of LLM Reasoning Tasks in Healthcare},
-  author = {Open Life Science AI},
+  author = {Pal, Ankit and {Open Life Science AI team}},
   url = {https://github.com/OpenLifeScienceAI/Medical-Reasoning-Tasks},
   year = {2024},
 }
