@@ -7,6 +7,11 @@
 <p align="center">
   <strong>Advancing AI in Healthcare through Collaborative Task Development</strong>
 </p>
+<h4 align="center">
+  <a href="https://t.co/vkvJli6ZP7">
+    <img src="https://img.shields.io/badge/Join-Community-blue" alt="Community" height="30"/>
+  </a>
+</h4>
 
 
 <h4 align="center">
