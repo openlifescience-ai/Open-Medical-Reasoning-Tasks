@@ -52,7 +52,7 @@ if __name__ == "__main__":
         "specialized_medical_tasks",
         "subject_specific_medical_tasks"
     ]
-    json_folder = "medical-tasks-json"
+    json_folder = "tasks-json"
     
     # Run the main processing function
     process_tasks(tasks_folders, json_folder)
