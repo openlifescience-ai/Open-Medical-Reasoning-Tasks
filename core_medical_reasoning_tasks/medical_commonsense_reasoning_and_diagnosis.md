@@ -152,3 +152,9 @@ This approach demonstrates commonsense QA by connecting medical symptoms to tang
 - Non-invasive Diagnostic Indicators
 - Patient-Centered Care Approach
 - Preventive Medicine Strategies
+
+## Expert Verification
+- Status: Pending
+- Last Verified:  [YYYY-MM-DD]
+- Verifying Expert: (see [EXPERTS.md](https://github.com/openlifescience-ai/Open-Medical-Reasoning-Tasks/blob/main/EXPERTS.md))
+- Expert Notes: 
