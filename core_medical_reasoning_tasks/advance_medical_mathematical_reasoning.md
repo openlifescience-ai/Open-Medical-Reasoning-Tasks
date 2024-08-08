@@ -177,5 +177,5 @@ This analysis demonstrates the complexity of implementing and evaluating diagnos
 ## Expert Verification
 - Status: Pending
 - Last Verified:  [YYYY-MM-DD]
-- Verifying Expert: (see ../EXPERTS.md)
+- Verifying Expert: (see [EXPERTS.md](https://github.com/openlifescience-ai/Open-Medical-Reasoning-Tasks/blob/main/EXPERTS.md))
 - Expert Notes: 
