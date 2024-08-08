@@ -126,9 +126,3 @@ This example demonstrates mathematical reasoning in medical research by applying
 - Medical Imaging Measurements
 - Physiological Parameter Calculations
 - Healthcare Resource Allocation Modeling
-
-## Expert Verification
-- Status: Pending
-- Last Verified:  [YYYY-MM-DD]
-- Verifying Expert: (see [EXPERTS.md](https://github.com/openlifescience-ai/Open-Medical-Reasoning-Tasks/blob/main/EXPERTS.md))
-- Expert Notes: 

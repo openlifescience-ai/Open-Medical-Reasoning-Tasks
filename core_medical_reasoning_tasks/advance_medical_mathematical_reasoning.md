@@ -173,9 +173,3 @@ This analysis demonstrates the complexity of implementing and evaluating diagnos
 - Health Outcomes Research
 - Clinical Decision Support Systems
 - Meta-Analysis Techniques
-
-## Expert Verification
-- Status: Pending
-- Last Verified:  [YYYY-MM-DD]
-- Verifying Expert: (see [EXPERTS.md](https://github.com/openlifescience-ai/Open-Medical-Reasoning-Tasks/blob/main/EXPERTS.md))
-- Expert Notes: 
