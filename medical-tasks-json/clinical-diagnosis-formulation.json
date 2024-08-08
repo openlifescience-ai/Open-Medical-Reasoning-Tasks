@@ -1,0 +1,30 @@
+{
+  "name": "Clinical Diagnosis Formulation",
+  "description": "This task involves analyzing patient symptoms, medical history, and test results to formulate accurate clinical diagnoses. It evaluates the model's ability to integrate diverse medical information, recognize patterns, and apply medical knowledge to identify potential diseases or conditions.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "A 45-year-old male presents with sudden onset of severe chest pain, shortness of breath, and sweating. He has a history of hypertension and smoking. Recent blood tests show elevated cholesterol levels. What is the most likely diagnosis?",
+        "output": "Given the presented information, the most likely diagnosis is Acute Myocardial Infarction (Heart Attack). Here's the reasoning:\n\n1. Patient profile:\n   - 45-year-old male\n   - History of hypertension and smoking\n   - Elevated cholesterol levels\n\n2. Symptoms:\n   - Sudden onset of severe chest pain\n   - Shortness of breath\n   - Sweating\n\n3. Analysis:\n   a) The patient has several risk factors for cardiovascular disease:\n      - Age (male over 45)\n      - Hypertension\n      - Smoking history\n      - Elevated cholesterol\n\n   b) The symptoms are classic for a heart attack:\n      - Severe chest pain (often described as pressure or squeezing)\n      - Shortness of breath\n      - Sweating (diaphoresis)\n\n   c) The sudden onset suggests an acute event rather than a chronic condition.\n\n4. Differential diagnoses to consider:\n   - Unstable Angina\n   - Aortic Dissection\n   - Pulmonary Embolism\n   - Pneumothorax\n\n5. Conclusion:\n   While other conditions should be ruled out, the combination of risk factors and typical symptoms strongly suggests an Acute Myocardial Infarction as the most likely diagnosis.\n\n6. Next steps:\n   - Immediate ECG\n   - Cardiac enzyme tests (Troponin)\n   - Aspirin administration (if not contraindicated)\n   - Preparation for potential cardiac catheterization\n\nThis diagnosis requires immediate medical attention and further tests for confirmation and treatment."
+      }
+    ],
+    [
+      {
+        "input": "A 28-year-old female presents with fatigue, unexplained weight loss, excessive thirst, and frequent urination over the past month. She has no significant medical history. What is the most likely diagnosis and what additional test would you recommend to confirm it?",
+        "output": "Given the presented information, the most likely diagnosis is Type 1 Diabetes Mellitus. Here's the reasoning:\n\n1. Patient profile:\n   - 28-year-old female\n   - No significant medical history\n\n2. Symptoms:\n   - Fatigue\n   - Unexplained weight loss\n   - Excessive thirst (polydipsia)\n   - Frequent urination (polyuria)\n   - Symptoms present for the past month\n\n3. Analysis:\n   a) The combination of symptoms is classic for diabetes:\n      - Polyuria and polydipsia are hallmark symptoms\n      - Unexplained weight loss suggests the body is not properly using glucose for energy\n      - Fatigue can result from the body's inability to use glucose effectively\n\n   b) The patient's age and lack of medical history suggest Type 1 rather than Type 2 Diabetes:\n      - Type 1 often presents in younger individuals\n      - Sudden onset of symptoms is more typical of Type 1\n\n4. Differential diagnoses to consider:\n   - Type 2 Diabetes Mellitus\n   - Hyperthyroidism\n   - Chronic kidney disease\n   - Certain medications or recreational drugs\n\n5. Conclusion:\n   While other conditions should be ruled out, the combination of classic symptoms in a young, previously healthy individual strongly suggests Type 1 Diabetes Mellitus.\n\n6. Recommended additional test:\n   The most important test to confirm this diagnosis would be a fasting blood glucose test.\n\n   Other tests to consider:\n   - Glycated hemoglobin (A1C) test\n   - Random blood glucose test\n   - Oral glucose tolerance test\n   - Tests for autoantibodies associated with Type 1 Diabetes\n\n7. Next steps:\n   - Conduct fasting blood glucose test\n   - If elevated (≥126 mg/dL or 7.0 mmol/L), repeat the test on another day for confirmation\n   - Check for ketones in urine to assess for diabetic ketoacidosis\n   - Refer to an endocrinologist for further management if diagnosis is confirmed\n\nThis diagnosis requires prompt medical attention for proper management and to prevent complications."
+      }
+    ]
+  ],
+  "tags": [
+    "Medical Diagnosis",
+    "Symptom Analysis",
+    "Patient History Interpretation",
+    "Clinical Reasoning",
+    "Differential Diagnosis",
+    "Data Integration",
+    "Medical Knowledge Application"
+  ]
+}

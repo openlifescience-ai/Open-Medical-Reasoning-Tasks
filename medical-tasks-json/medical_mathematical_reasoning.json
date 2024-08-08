@@ -1,0 +1,43 @@
+{
+  "name": "Medical Mathematical Reasoning",
+  "description": "This task involves applying mathematical concepts and reasoning to medical scenarios. It evaluates the model's ability to perform calculations, interpret numerical data, and apply mathematical logic to solve clinical problems or make medical decisions.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "A hospital pharmacy needs to prepare a 0.9% saline solution. They have 1 liter of distilled water and need to add salt (NaCl). How many grams of NaCl should be added to create the correct concentration?",
+        "output": "To solve this problem, we'll use the concept of percentage concentration and basic algebra. Here's the step-by-step reasoning:\n\n1. Understanding the given information:\n   - We need to prepare a 0.9% saline solution\n   - We have 1 liter (1000 mL) of distilled water\n   - We need to calculate the amount of NaCl to add\n\n2. Calculation:\n   a) 0.9% means 0.9 grams of NaCl per 100 mL of solution\n   b) For 1000 mL (1 liter), we need to set up a proportion:\n      0.9 g NaCl / 100 mL = x g NaCl / 1000 mL\n\n   c) Cross multiply:\n      0.9 * 1000 = 100x\n\n   d) Solve for x:\n      900 = 100x\n      x = 900 / 100\n      x = 9\n\n3. Interpretation:\n   9 grams of NaCl should be added to 1 liter of distilled water to create a 0.9% saline solution.\n\n4. Verification:\n   - Final solution will contain 9 g NaCl in 1000 mL (1009 mL total volume, accounting for the small volume increase from the added salt)\n   - Concentration = (9 g / 1009 mL) * 100 = 0.892%, which rounds to 0.9%\n\nThis approach demonstrates mathematical reasoning in a medical context by applying percentage calculations and proportions to determine the correct amount of solute (NaCl) needed for a specific concentration of solution, which is crucial for preparing accurate medical solutions."
+      }
+    ],
+    [
+      {
+        "input": "A clinical trial for a new hypertension medication involves 500 participants. After 6 months, 80 participants have dropped out, 300 show improved blood pressure, 100 show no change, and 20 show worsened blood pressure. Calculate the percentage of remaining participants who showed improvement, and determine if this result is statistically significant at a 95% confidence level compared to an expected improvement rate of 50% in the general population.",
+        "output": "This problem involves statistical analysis of clinical trial data. Let's break it down step by step:\n\n1. Data organization:\n   - Total participants at start: 500\n   - Dropouts: 80\n   - Improved: 300\n   - No change: 100\n   - Worsened: 20\n\n2. Calculate remaining participants:\n   500 - 80 = 420 participants remained in the study\n\n3. Calculate percentage of improvement among remaining participants:\n   Improvement rate = (300 / 420) * 100 = 71.43%\n\n4. Statistical significance calculation:\n   We'll use a one-sample z-test for proportions.\n\n   a) Null hypothesis (H0): The improvement rate is 50% (same as general population)\n   Alternative hypothesis (Ha): The improvement rate is different from 50%\n\n   b) Calculate the standard error (SE):\n      SE = √[(p * (1-p)) / n], where p is the expected proportion (0.5) and n is the sample size (420)\n      SE = √[(0.5 * 0.5) / 420] = 0.0244\n\n   c) Calculate the z-score:\n      z = (observed proportion - expected proportion) / SE\n      z = (0.7143 - 0.5) / 0.0244 = 8.78\n\n   d) Find the p-value:\n      For a two-tailed test at 95% confidence level, the critical z-value is ±1.96\n      Our z-score (8.78) is well outside this range.\n      The p-value is less than 0.0001 (extremely small)\n\n5. Interpretation:\n   - 71.43% of remaining participants showed improvement.\n   - This result is statistically significant at the 95% confidence level (p < 0.0001).\n   - We reject the null hypothesis and conclude that the improvement rate in the study is significantly different from the expected 50% in the general population.\n\n6. Clinical significance:\n   The improvement rate (71.43%) is not only statistically significant but also clinically meaningful, as it represents a substantial increase from the expected 50% improvement rate.\n\nThis example demonstrates mathematical reasoning in medical research by applying concepts of percentages, probability, and statistical hypothesis testing to analyze clinical trial results and draw meaningful conclusions about treatment efficacy."
+      }
+    ]
+  ],
+  "tags": [
+    "Statistical Analysis in Medicine",
+    "Clinical Trial Data Interpretation",
+    "Pharmacological Calculations",
+    "Biostatistics",
+    "Hypothesis Testing in Medical Research",
+    "Concentration and Dilution Calculations",
+    "Medical Solution Preparation",
+    "Data-Driven Decision Making in Healthcare",
+    "Probability in Medical Outcomes",
+    "Quantitative Analysis of Treatment Efficacy",
+    "Medical Research Methodology",
+    "Confidence Interval Calculations",
+    "Sample Size and Power Analysis",
+    "Error Rate Calculations in Diagnostics",
+    "Dosage Calculations",
+    "Risk Assessment Quantification",
+    "Epidemiological Data Analysis",
+    "Medical Imaging Measurements",
+    "Physiological Parameter Calculations",
+    "Healthcare Resource Allocation Modeling"
+  ]
+}

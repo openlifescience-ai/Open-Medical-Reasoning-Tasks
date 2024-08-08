@@ -1,0 +1,43 @@
+{
+  "name": "Medical Commonsense Reasoning and Diagnosis",
+  "description": "This task involves answering medical questions that require not only factual knowledge but also an understanding of everyday situations and human-like reasoning in a clinical context. It evaluates the model's ability to integrate medical knowledge with common sense to provide logical and practical responses to medical scenarios.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "A 28-year-old pregnant woman in her third trimester calls her obstetrician reporting that she hasn't felt her baby move in the last 24 hours. She mentions feeling fine otherwise and has had an uncomplicated pregnancy so far. What should the obstetrician advise as an immediate next step?",
+        "output": "Given the presented information, the obstetrician should advise the patient to come to the hospital or clinic immediately for fetal monitoring. Here's the reasoning:\n\n1. Patient profile:\n   - 28-year-old pregnant woman\n   - Third trimester of pregnancy\n   - Previously uncomplicated pregnancy\n   - No fetal movement felt in the last 24 hours\n   - Patient feels fine otherwise\n\n2. Analysis:\n   a) Fetal movement is a key indicator of fetal well-being, especially in the third trimester.\n   b) A sudden decrease or absence of fetal movement can signify fetal distress.\n   c) The patient's well-being doesn't necessarily reflect the fetal condition.\n\n3. Commonsense reasoning:\n   a) While some variation in fetal movement is normal, 24 hours without perceived movement is concerning.\n   b) Quick assessment is crucial as delayed intervention in cases of fetal distress can lead to serious complications.\n   c) In-person evaluation allows for immediate intervention if needed.\n\n4. Medical rationale for immediate in-person assessment:\n   - Allows for prompt fetal heart rate monitoring (e.g., non-stress test)\n   - Enables quick ultrasound evaluation if necessary\n   - Facilitates immediate intervention if fetal distress is detected\n\n5. Alternative steps considered:\n   - Advising at-home kick counting\n   - Scheduling a routine appointment\n   - Recommending watchful waiting\n\n6. Justification for chosen step:\n   - Prioritizes fetal safety in a potentially critical situation\n   - Aligns with standard obstetric care guidelines for reduced fetal movement\n   - Provides reassurance to the patient through professional assessment\n\n7. Next steps after arrival at hospital/clinic:\n   - Perform non-stress test or biophysical profile\n   - Conduct ultrasound if indicated\n   - Assess maternal vital signs and overall health\n   - Determine need for further monitoring or intervention based on findings\n\nThis approach demonstrates commonsense medical reasoning in obstetrics by recognizing the potential seriousness of reduced fetal movement, even in the absence of other symptoms, and prioritizing swift professional assessment to ensure both maternal and fetal well-being."
+      }
+    ],
+    [
+      {
+        "input": "A 10-year-old boy is brought to the pediatrician by his mother. She's concerned because he's been losing weight despite eating normally, and she noticed he's been drinking water excessively and urinating frequently. The boy mentions he's been feeling more tired than usual. What everyday objects or situations might the doctor ask about to help assess the likelihood of diabetes in this child?",
+        "output": "To assess the likelihood of diabetes in this child, the doctor might ask about several everyday objects or situations that require commonsense reasoning combined with medical knowledge:\n\n1. School water bottle:\n   - How often does the child refill it?\n   - Has the teacher noticed increased trips to the water fountain?\n\n2. Bathroom habits:\n   - Frequency of nighttime bathroom trips\n   - Any bedwetting incidents (unusual for this age)\n\n3. Clothing fit:\n   - Are clothes becoming looser?\n   - Has the child needed a new belt hole recently?\n\n4. Sports or physical activities:\n   - Any changes in endurance or performance?\n   - Unusual fatigue during regular play?\n\n5. Homework and attention:\n   - Any difficulty concentrating on schoolwork?\n   - Changes in grades or teacher feedback?\n\n6. Lunchbox:\n   - Any uneaten food returning home?\n   - Requests for extra snacks or larger portions?\n\n7. Garbage can:\n   - Increase in empty juice or soda containers?\n\n8. Fruit bowl:\n   - Increased interest in sugary fruits?\n\n9. Bathroom trash:\n   - More tissues from frequent urination?\n\n10. Laundry:\n    - Increase in underwear changes due to accidents?\n\n11. Family meals:\n    - Finishing meals but still seeming hungry?\n\n12. Video games or TV time:\n    - Less interest or stamina for usual activities?\n\n13. Cuts or bruises:\n    - Taking longer to heal than usual?\n\n14. Mood and behavior:\n    - Any unusual irritability or mood swings?\n\nCommonsense reasoning:\n- These everyday items and situations can provide indirect evidence of diabetes symptoms.\n- They offer a child-friendly way to gather information without relying solely on the child's self-reporting.\n- Observations from daily life can reveal patterns that might not be apparent in a brief doctor's visit.\n\nThis approach demonstrates commonsense QA by connecting medical symptoms to tangible, everyday experiences that a child and parent can easily relate to and report on, potentially uncovering important diagnostic clues."
+      }
+    ]
+  ],
+  "tags": [
+    "Clinical Decision Making",
+    "Symptom Interpretation",
+    "Patient History Analysis",
+    "Differential Diagnosis",
+    "Everyday Life Medical Implications",
+    "Pediatric Health Assessment",
+    "Obstetric Risk Evaluation",
+    "Fetal Well-being Monitoring",
+    "Diabetes Screening in Children",
+    "Growth and Development Evaluation",
+    "Behavioral Health in Pediatrics",
+    "Physical Activity and Health",
+    "Nutritional Assessment",
+    "Sleep Patterns in Disease",
+    "Cognitive Function Evaluation",
+    "Family Health Dynamics",
+    "School Performance and Health",
+    "Non-invasive Diagnostic Indicators",
+    "Patient-Centered Care Approach",
+    "Preventive Medicine Strategies"
+  ]
+}
