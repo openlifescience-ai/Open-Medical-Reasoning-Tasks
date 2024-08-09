@@ -108,7 +108,7 @@ If our work contributes to your research, please cite us:
 ```bibtex
 @misc{medicalreasoningtasks,
   title = {Open Medical Reasoning Tasks: A Comprehensive Collection of LLM Reasoning Tasks in Healthcare},
-  author = {Pal, Ankit and {Open Life Science AI team}},
+  author = {Pal, Ankit and Open Life Science AI team},
   url = {https://github.com/OpenLifeScienceAI/Medical-Reasoning-Tasks},
   year = {2024},
 }
