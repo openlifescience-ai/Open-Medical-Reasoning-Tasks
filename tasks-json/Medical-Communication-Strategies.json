@@ -1,0 +1,29 @@
+{
+  "name": "Analyzing Medical Communication Strategies",
+  "description": "This task involves identifying and evaluating the communication strategies used in medical contexts, such as patient education materials, public health messages, or doctor-patient interactions. It assesses the model's ability to recognize effective health communication techniques, understand their intended effects, and analyze their effectiveness in conveying medical information or promoting health behaviors.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Analyze the communication strategies used in this excerpt from a public health announcement about vaccination:\n\n\"Vaccines save lives. By choosing to vaccinate, you're not just protecting yourself, but also your loved ones and your community. The science is clear: vaccines are safe, effective, and our best defense against dangerous diseases. Don't wait - vaccinate!\"",
+        "output": "Communication strategies used in this public health announcement include:\n\n1. Clear, concise statement: \"Vaccines save lives\" is a straightforward, powerful opening that immediately conveys the main message.\n\n2. Appeal to altruism: Emphasizing protection of \"loved ones and your community\" encourages vaccination as a socially responsible act.\n\n3. Appeal to scientific authority: \"The science is clear\" invokes the credibility of scientific consensus to support the message.\n\n4. Use of adjectives: \"dangerous diseases\" emphasizes the threat, while \"safe, effective\" reassures about vaccine qualities.\n\n5. Tricolon: The three-part structure \"safe, effective, and our best defense\" is memorable and emphatic.\n\n6. Call to action: \"Don't wait - vaccinate!\" uses imperative mood and rhyme to prompt immediate action.\n\n7. Addressing common concerns: By proactively mentioning safety and effectiveness, it anticipates and addresses potential hesitations.\n\n8. Positive framing: The message focuses on benefits and protection rather than risks of not vaccinating.\n\nThese strategies work together to create a compelling and reassuring message that aims to overcome vaccine hesitancy by appealing to both emotion (protecting loved ones) and reason (scientific evidence), while providing a clear call to action. The language is accessible and avoids overly technical terms, making it suitable for a general audience."
+      }
+    ],
+    [
+      {
+        "input": "Analyze the communication strategies used in this doctor's explanation to a patient:\n\n\"Mr. Johnson, your test results show that you have type 2 diabetes. Now, I know that sounds scary, but it's a condition we can manage together. Think of it like your body's engine isn't using fuel efficiently. Our goal is to tune up that engine with a combination of medication, diet changes, and exercise. It'll take some work, but many of my patients lead full, healthy lives with diabetes. What questions do you have for me?\"",
+        "output": "Communication strategies used in this doctor's explanation include:\n\n1. Direct disclosure: The doctor clearly states the diagnosis without euphemisms.\n\n2. Empathy: Acknowledging that the diagnosis might sound scary shows understanding of the patient's potential feelings.\n\n3. Partnership language: Using \"we\" and \"together\" emphasizes a collaborative approach to treatment.\n\n4. Analogy: Comparing diabetes to an inefficient engine simplifies a complex medical concept into an easily understandable idea.\n\n5. Positive framing: Focusing on managing the condition and leading a full, healthy life provides hope and motivation.\n\n6. Clear treatment outline: Mentioning medication, diet, and exercise gives a concrete idea of what management will involve.\n\n7. Realistic expectation setting: \"It'll take some work\" prepares the patient for the effort required without being discouraging.\n\n8. Social proof: Mentioning other patients' success provides reassurance and perspective.\n\n9. Open-ended question: \"What questions do you have for me?\" invites dialogue and patient participation.\n\n10. Use of the patient's name: \"Mr. Johnson\" personalizes the interaction.\n\n11. Avoiding medical jargon: The explanation uses simple language accessible to a layperson.\n\nThese strategies work together to deliver potentially distressing news in a way that is clear, supportive, and empowering. The doctor provides information, emotional support, and a sense of partnership, while also checking for understanding and inviting questions. This approach aligns with patient-centered care principles, aiming to educate the patient and encourage their active participation in managing their health condition."
+      }
+    ]
+  ],
+  "tags": [
+    "Health Communication",
+    "Patient Education",
+    "Doctor-Patient Interaction",
+    "Public Health Messaging",
+    "Medical Explanations",
+    "Health Literacy"
+  ]
+}
