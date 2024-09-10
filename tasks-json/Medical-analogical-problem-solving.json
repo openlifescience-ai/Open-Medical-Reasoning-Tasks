@@ -1,0 +1,29 @@
+{
+  "name": "Medical Analogical Problem Solving",
+  "description": "This task involves using medical analogies to solve clinical problems by applying solutions from one medical domain to another similar situation. It evaluates the model's ability to recognize structural similarities between different medical scenarios and transfer problem-solving strategies across clinical contexts.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "In cardiology, doctors often use the analogy of a plumbing system to explain heart function to patients. How might this analogy be used to explain a problem with a patient's heart valve?",
+        "output": "To explain a heart valve problem using the plumbing system analogy:\n\n1. Identify the corresponding parts:\n   - Heart = Pump\n   - Blood vessels = Pipes\n   - Heart valves = One-way valves in pipes\n   - Blood = Water\n\n2. Explain the normal function:\n   Just as one-way valves in a plumbing system ensure water flows in the correct direction, heart valves ensure blood flows properly through the heart chambers.\n\n3. Describe the problem:\n   If the patient has a leaky valve (regurgitation), explain it's like a faulty one-way valve that allows some water to flow backward, reducing the efficiency of the entire system.\n\n4. Explain the consequences:\n   This 'backflow' means the heart has to work harder to pump the same amount of blood, just as a plumbing system with a leaky valve would require more pump pressure to maintain proper flow.\n\n5. Discuss treatment options:\n   Fixing the problem might involve repairing or replacing the valve, similar to how a plumber would repair or replace a faulty valve in a pipe system.\n\nThis approach demonstrates how understanding the structure and function of a plumbing system can help patients comprehend complex cardiac issues and potential treatments."
+      }
+    ],
+    [
+      {
+        "input": "Immunologists often use the analogy of a military defense system to explain the immune system to patients. How might this analogy be used to explain why a patient is experiencing frequent infections?",
+        "output": "Using the military defense system analogy to explain frequent infections:\n\n1. Identify corresponding elements:\n   - Immune system = Military defense\n   - White blood cells = Soldiers\n   - Antibodies = Weapons\n   - Pathogens = Enemy invaders\n   - Lymph nodes = Military bases\n\n2. Explain normal function:\n   The immune system, like a well-organized military, has different types of 'soldiers' (white blood cells) that patrol the body, identify 'invaders' (pathogens), and neutralize them using various 'weapons' (antibodies and other immune responses).\n\n3. Describe the problem:\n   Frequent infections suggest the 'defense system' is not functioning optimally. This could be due to:\n   a) Insufficient 'troops' (low white blood cell count)\n   b) Ineffective 'weapons' (antibody deficiency)\n   c) Poor 'communication' between defense units (immune system dysregulation)\n   d) Overwhelmed defenses (exposure to many pathogens)\n\n4. Explain consequences:\n   With weakened defenses, 'enemy invaders' (pathogens) can more easily penetrate and establish 'strongholds' (infections) in the body.\n\n5. Discuss diagnostic approach:\n   Just as military strategists would analyze defense weaknesses, doctors will run tests to identify which part of the immune 'army' is underperforming.\n\n6. Outline treatment strategies:\n   Treatment might involve 'reinforcing the troops' (boosting immune function), 'upgrading weapons' (antibody replacement therapy), or 'targeted strikes' (antibiotics for bacterial infections).\n\nThis analogy helps patients understand the complexity of the immune system, the reasons for recurrent infections, and the rationale behind diagnostic tests and treatments."
+      }
+    ]
+  ],
+  "tags": [
+    "Medical Problem Solving",
+    "Clinical Analogical Reasoning",
+    "Patient Education",
+    "Diagnostic Thinking",
+    "Treatment Explanation",
+    "Medical Communication"
+  ]
+}
