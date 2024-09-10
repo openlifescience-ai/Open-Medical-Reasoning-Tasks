@@ -1,0 +1,29 @@
+{
+  "name": "Analyzing Clinical Decision Trees",
+  "description": "This task involves interpreting and evaluating clinical decision trees to understand the logic behind medical decision-making processes. It assesses the model's ability to follow branching logic in clinical scenarios, identify key decision points, and determine appropriate medical interventions or diagnoses based on given patient conditions and symptoms.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Analyze the following decision tree for managing acute coronary syndrome (ACS):\n\nRoot: Chest pain suggestive of ACS?\n├─ Yes\n│  └─ ECG changes?\n│     ├─ ST-elevation\n│     │  └─ STEMI: Immediate reperfusion (PCI or thrombolysis)\n│     └─ No ST-elevation\n│        └─ Troponin elevated?\n│           ├─ Yes: NSTEMI - Early invasive strategy\n│           └─ No: Unstable Angina - Medical management and risk stratification\n└─ No\n   └─ Consider other diagnoses\n\nWhat would be the recommended management for a patient with chest pain, no ST-elevation on ECG, but elevated troponin levels?",
+        "output": "Based on the given clinical decision tree, for a patient with chest pain, no ST-elevation on ECG, but elevated troponin levels, the recommended management would be to treat for NSTEMI (Non-ST-Elevation Myocardial Infarction) with an early invasive strategy.\n\nHere's the path through the decision tree:\n1. Chest pain suggestive of ACS? - Yes\n2. ECG changes? - No ST-elevation\n3. Troponin elevated? - Yes\n4. Recommendation: NSTEMI - Early invasive strategy\n\nThe decision tree leads to this conclusion by first considering the presence of chest pain suggestive of ACS, then evaluating the ECG for ST-elevation (which is absent in this case), and finally checking troponin levels (which are elevated).\n\nAn early invasive strategy typically involves cardiac catheterization and possible percutaneous coronary intervention (PCI) within 24-72 hours of admission, depending on the patient's risk stratification.\n\nIt's important to note that while this decision tree provides a quick guideline, actual clinical decision-making would also take into account other factors such as the patient's overall clinical status, comorbidities, risk factors, and contraindications to certain treatments. Additionally, the timing of troponin elevation and the specific clinical context would be considered in real-world scenarios."
+      }
+    ],
+    [
+      {
+        "input": "Analyze this simplified decision tree for managing a patient with suspected sepsis:\n\nRoot: Suspected infection?\n├─ Yes\n│  └─ 2 or more SIRS criteria?\n│     ├─ Yes\n│     │  └─ Evidence of organ dysfunction?\n│     │     ├─ Yes: Sepsis - Start Sepsis Protocol\n│     │     └─ No: SIRS - Monitor closely\n│     └─ No: Continue to monitor\n└─ No\n   └─ Consider other diagnoses\n\nWhat would be the recommended management for a patient with suspected infection, meeting 3 SIRS criteria, and showing signs of acute kidney injury?",
+        "output": "Based on the given clinical decision tree, for a patient with suspected infection, meeting 3 SIRS (Systemic Inflammatory Response Syndrome) criteria, and showing signs of acute kidney injury, the recommended management would be to diagnose Sepsis and Start Sepsis Protocol.\n\nHere's the path through the decision tree:\n1. Suspected infection? - Yes\n2. 2 or more SIRS criteria? - Yes (patient meets 3 criteria)\n3. Evidence of organ dysfunction? - Yes (acute kidney injury indicates organ dysfunction)\n4. Recommendation: Sepsis - Start Sepsis Protocol\n\nThe decision tree leads to this conclusion by first confirming the suspicion of infection, then verifying that the patient meets the SIRS criteria (which they do, with 3 criteria), and finally checking for evidence of organ dysfunction (which is present in the form of acute kidney injury).\n\nStarting the Sepsis Protocol typically involves several immediate actions:\n1. Obtaining blood cultures before starting antibiotics\n2. Administering broad-spectrum antibiotics within 1 hour\n3. Beginning fluid resuscitation with 30 ml/kg crystalloid for hypotension or lactate ≥4 mmol/L\n4. Measuring lactate level\n5. Vasopressors for hypotension not responding to initial fluid resuscitation\n\nIt's crucial to note that while this decision tree provides a quick guideline, actual clinical management of sepsis is complex and dynamic. The Surviving Sepsis Campaign guidelines provide more detailed recommendations, and treatment should be tailored to the individual patient's condition, comorbidities, and response to therapy. Continuous reassessment and adjustment of the treatment plan is essential in managing sepsis effectively."
+      }
+    ]
+  ],
+  "tags": [
+    "Clinical Decision Making",
+    "Diagnostic Reasoning",
+    "Treatment Protocols",
+    "Emergency Medicine",
+    "Critical Care",
+    "Evidence-Based Medicine"
+  ]
+}
